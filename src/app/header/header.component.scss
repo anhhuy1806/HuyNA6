@@ -1,0 +1,46 @@
+.header{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: red;
+    height: auto;
+}
+nav ul{
+    display: inline-block;
+    justify-content: right;
+}
+nav h1{
+    display: inline-block;
+    justify-content: left;
+}
+.menu li{
+    display: inline-block;
+    
+    width: 100px;
+    position: relative;
+    
+    
+    
+}
+.menu li>a{
+    text-decoration: none;
+}
+.menu li:hover ul.menucon{
+    display: block;
+    
+}
+.menu ul.menucon{
+    position: absolute;
+    display: none;
+    
+    
+    
+    background-color: rgb(117, 58, 58);
+    padding: 10px 0px;
+    width: 100px;
+    line-height: 30px;
+}
+.menu ul.menucon>a{
+    
+    text-decoration: none;
+    
+}
